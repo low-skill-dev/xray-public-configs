@@ -1,5 +1,9 @@
-# Настройки v2ray/xray для РФ
-Клиент: https://github.com/2dust/v2rayN.<br/>
+# Настройки v2ray для РФ
+android: https://github.com/2dust/v2rayNG<br/>
+windows: https://github.com/2dust/v2rayN<br/>
+linux: https://github.com/v2rayA/v2rayA<br/>
+ios: streisand, foxray
+
 Однажды хамниг гуэй поспорил что напишет удобный JSON-формат конфигурирования прокси, но потом сделает для него такой GUI, чтобы все обплевались. Он выиграл спор.
 ### routing
 **4 апреля 2022 года Михаил Мишустин заявил об открытии авиасообщения с 52 дружественными странами:**<br/>
