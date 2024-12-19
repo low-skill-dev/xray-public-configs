@@ -16,16 +16,18 @@ DZ, AR, AF, BH, BA, BW, BR, VE, VN, HK, EG, ZW, IL, IN, ID, JO, IQ, KE, CN, KP, 
   { "Remarks": "private", "OutboundTag": "direct", "Ip": [ "geosite:private" ] },
   { "Remarks": "bittorrent", "OutboundTag": "direct", "Protocol": [ "bittorrent" ] },
   {
-    "Remarks": "regexp:friendly-to-russia",
+    "Remarks": "friendly-to-russia",
     "OutboundTag": "direct",
     "Domain": [ "regexp:.*\\.(ru|рф|by|kz|ir|dz|ar|af|bh|ba|bw|br|ve|vn|hk|eg|zw|il|in|id|jo|iq|ke|cn|kp|cr|kw|lb|ls|mu|mg|my|mv|ma|mz|md|mn|mm|na|om|pk|pe|sa|sc|rs|sy|th|tz|tn|tr|uy|fj|ph|lk|et|za|jm|az|am|kg|tj|tm|uz|bd|qa|cu|ae)$" ] },
   {
-    "Remarks": "geosite:friendly-to-russia",
+    "Remarks": "friendly-to-russia",
     "OutboundTag": "direct",
-    "Domain": [
-      "geosite:WHATSAPP", "geoip:TELEGRAM",
-      "geosite:VK", "geosite:YANDEX", "geosite:MAILRU"
-    ]
+    "Domain": [ "geosite:VK", "geosite:YANDEX", "geosite:MAILRU" ]
+  },
+  {
+    "Remarks": "social-networks",
+    "OutboundTag": "direct",
+    "Domain": [ "geosite:WHATSAPP", "geoip:TELEGRAM" ]
   },
   {
     "Remarks": "geoip:friendly-to-russia",
