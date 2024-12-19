@@ -35,7 +35,7 @@ DZ, AR, AF, BH, BA, BW, BR, VE, VN, HK, EG, ZW, IL, IN, ID, JO, IQ, KE, CN, KP, 
     "Domain": [ "geosite:WHATSAPP", "geoip:TELEGRAM" ]
   },
   {
-    "Remarks": "geoip:friendly-to-russia",
+    "Remarks": "friendly-to-russia",
     "OutboundTag": "direct",
     "Ip": [
       "geoip:ru", "geoip:by", "geoip:kz", "geoip:ir", "geoip:cn", "geoip:ba",
