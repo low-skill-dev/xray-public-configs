@@ -19,7 +19,7 @@ DZ, AR, AF, BH, BA, BW, BR, VE, VN, HK, EG, ZW, IL, IN, ID, JO, IQ, KE, CN, KP, 
 [
   { "Remarks": "private", "OutboundTag": "direct", "Ip": [ "geoip:private" ] },
   { "Remarks": "bittorrent", "OutboundTag": "direct", "Protocol": [ "bittorrent" ] },
-  { "Remarks": "ads", "OutboundTag": "block", Domain": [ "geosite:category-ads-all" ] },
+  { "Remarks": "ads", "OutboundTag": "block", "Domain": [ "geosite:category-ads-all" ] },
   {
     "Remarks": "friendly-to-russia",
     "OutboundTag": "direct",
