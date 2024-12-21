@@ -60,3 +60,26 @@ DZ, AR, AF, BH, BA, BW, BR, VE, VN, HK, EG, ZW, IL, IN, ID, JO, IQ, KE, CN, KP, 
   }
 ]
 ```
+### dns
+По неизвестной причине, запросы к DNS у v2ray идут весьма медленно. Поэтому, если домен из зоны ru - гоним напрямую в yandexDNS, если нет - напрямую в doh.opendns.com. Что не получилось - улетает в прокси.
+```json
+{
+  "servers": [
+    {
+      "address": "77.88.8.8",
+      "domains": [
+        "geosite:VK", "geosite:YANDEX", "geosite:MAILRU",
+        "regexp:.*\\.(ru|рф|by|kz|ir|dz|ar|af|bh|ba|bw|br|ve|vn|hk|eg|zw|il|in|id|jo|iq|ke|cn|kp|cr|kw|lb|ls|mu|mg|my|mv|ma|mz|md|mn|mm|na|om|pk|pe|sa|sc|rs|sy|th|tz|tn|tr|uy|fj|ph|lk|et|za|jm|az|am|kg|tj|tm|uz|bd|qa|cu|ae)$"
+      ]
+    },
+    "https://doh.opendns.com/dns-query",
+    "https://dns.google/dns-query",
+    "https://cloudflare-dns.com/dns-query",
+    "https://dns.quad9.net/dns-query",
+    "208.67.222.222", "8.8.8.8", "1.1.1.1", "9.9.9.9"
+  ],
+  "queryStrategy": "UseIP",
+  "disableCache": false,
+  "disableFallback": false
+}
+```
