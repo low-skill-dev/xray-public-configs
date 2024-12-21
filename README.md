@@ -16,9 +16,10 @@ ios: streisand, foxray
 DZ, AR, AF, BH, BA, BW, BR, VE, VN, HK, EG, ZW, IL, IN, ID, JO, IQ, KE, CN, KP, CR, KW, LB, LS, MU, MG, MY, MV, MA, MZ, MD, MN, MM, NA, OM, PK, PE, SA, SC, RS, SY, TH, TZ, TN, TR, UY, FJ, PH, LK, ET, ZA, JM, AZ, AM, BY, KG, TJ, TM, UZ, BD, IR, KZ, QA, CU, AE
 ```json
 [
+  { "remarks": "bittorrent", "outboundTag": "direct", "Protocol": [ "bittorrent" ] },
   { "remarks": "dns", "outboundTag": "direct", "ip": [ "77.88.8.8" ] },
   { "remarks": "private", "outboundTag": "direct", "ip": [ "geoip:private" ] },
-  { "remarks": "bittorrent", "outboundTag": "direct", "Protocol": [ "bittorrent" ] },
+  { "remarks": "private", "outboundTag": "direct", "domain": [ "geosite:private" ] },
   { "remarks": "doh", "outboundTag": "direct", "domain": [ "doh.opendns.com" ] },
   { "remarks": "ads", "outboundTag": "block", "domain": [ "geosite:category-ads-all" ] },
   {
