@@ -20,6 +20,8 @@ DZ, AR, AF, BH, BA, BW, BR, VE, VN, HK, EG, ZW, IL, IN, ID, JO, IQ, KE, CN, KP, 
   { "Remarks": "private", "OutboundTag": "direct", "Ip": [ "geoip:private" ] },
   { "Remarks": "bittorrent", "OutboundTag": "direct", "Protocol": [ "bittorrent" ] },
   { "Remarks": "ads", "OutboundTag": "block", "Domain": [ "geosite:category-ads-all" ] },
+  { "Remarks": "dns", "OutboundTag": "direct", "Ip": [ "77.88.8.8" ] },
+  { "Remarks": "doh", "OutboundTag": "direct", "Domain": [ "doh.opendns.com" ] },
   {
     "Remarks": "friendly-to-russia",
     "OutboundTag": "direct",
