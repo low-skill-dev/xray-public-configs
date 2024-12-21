@@ -33,7 +33,7 @@ DZ, AR, AF, BH, BA, BW, BR, VE, VN, HK, EG, ZW, IL, IN, ID, JO, IQ, KE, CN, KP, 
   {
     "remarks": "social-networks",
     "outboundTag": "direct",
-    "domain": [ "geosite:WHATSAPP", "geoip:TELEGRAM" ]
+    "domain": [ "geosite:WHATSAPP", "geosite:TELEGRAM" ]
   },
   {
     "remarks": "friendly-to-russia",
