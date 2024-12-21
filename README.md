@@ -14,32 +14,31 @@ ios: streisand, foxray
 
 **Коды ISO 3166 этих "дружественных" стран:**<br/>
 DZ, AR, AF, BH, BA, BW, BR, VE, VN, HK, EG, ZW, IL, IN, ID, JO, IQ, KE, CN, KP, CR, KW, LB, LS, MU, MG, MY, MV, MA, MZ, MD, MN, MM, NA, OM, PK, PE, SA, SC, RS, SY, TH, TZ, TN, TR, UY, FJ, PH, LK, ET, ZA, JM, AZ, AM, BY, KG, TJ, TM, UZ, BD, IR, KZ, QA, CU, AE
-  
 ```json
 [
-  { "Remarks": "dns", "OutboundTag": "direct", "Ip": [ "77.88.8.8" ] },
-  { "Remarks": "private", "OutboundTag": "direct", "Ip": [ "geoip:private" ] },
-  { "Remarks": "bittorrent", "OutboundTag": "direct", "Protocol": [ "bittorrent" ] },
-  { "Remarks": "doh", "OutboundTag": "direct", "Domain": [ "doh.opendns.com" ] },
-  { "Remarks": "ads", "OutboundTag": "block", "Domain": [ "geosite:category-ads-all" ] },
+  { "remarks": "dns", "outboundTag": "direct", "ip": [ "77.88.8.8" ] },
+  { "remarks": "private", "outboundTag": "direct", "ip": [ "geoip:private" ] },
+  { "remarks": "bittorrent", "outboundTag": "direct", "Protocol": [ "bittorrent" ] },
+  { "remarks": "doh", "outboundTag": "direct", "domain": [ "doh.opendns.com" ] },
+  { "remarks": "ads", "outboundTag": "block", "domain": [ "geosite:category-ads-all" ] },
   {
-    "Remarks": "friendly-to-russia",
-    "OutboundTag": "direct",
-    "Domain": [ "regexp:.*\\.(ru|рф|by|kz|ir|dz|ar|af|bh|ba|bw|br|ve|vn|hk|eg|zw|il|in|id|jo|iq|ke|cn|kp|cr|kw|lb|ls|mu|mg|my|mv|ma|mz|md|mn|mm|na|om|pk|pe|sa|sc|rs|sy|th|tz|tn|tr|uy|fj|ph|lk|et|za|jm|az|am|kg|tj|tm|uz|bd|qa|cu|ae)$" ] },
+    "remarks": "friendly-to-russia",
+    "outboundTag": "direct",
+    "domain": [ "regexp:.*\\.(ru|рф|by|kz|ir|dz|ar|af|bh|ba|bw|br|ve|vn|hk|eg|zw|il|in|id|jo|iq|ke|cn|kp|cr|kw|lb|ls|mu|mg|my|mv|ma|mz|md|mn|mm|na|om|pk|pe|sa|sc|rs|sy|th|tz|tn|tr|uy|fj|ph|lk|et|za|jm|az|am|kg|tj|tm|uz|bd|qa|cu|ae)$" ] },
   {
-    "Remarks": "friendly-to-russia",
-    "OutboundTag": "direct",
-    "Domain": [ "geosite:VK", "geosite:YANDEX", "geosite:MAILRU" ]
+    "remarks": "friendly-to-russia",
+    "outboundTag": "direct",
+    "domain": [ "geosite:VK", "geosite:YANDEX", "geosite:MAILRU" ]
   },
   {
-    "Remarks": "social-networks",
-    "OutboundTag": "direct",
-    "Domain": [ "geosite:WHATSAPP", "geoip:TELEGRAM" ]
+    "remarks": "social-networks",
+    "outboundTag": "direct",
+    "domain": [ "geosite:WHATSAPP", "geoip:TELEGRAM" ]
   },
   {
-    "Remarks": "friendly-to-russia",
-    "OutboundTag": "direct",
-    "Ip": [
+    "remarks": "friendly-to-russia",
+    "outboundTag": "direct",
+    "ip": [
       "geoip:ru", "geoip:by", "geoip:kz", "geoip:ir", "geoip:cn", "geoip:ba",
       "geoip:bw", "geoip:br", "geoip:ve", "geoip:vn", "geoip:hk", "geoip:eg",
       "geoip:zw", "geoip:il", "geoip:in", "geoip:id", "geoip:jo", "geoip:iq",
@@ -54,9 +53,9 @@ DZ, AR, AF, BH, BA, BW, BR, VE, VN, HK, EG, ZW, IL, IN, ID, JO, IQ, KE, CN, KP, 
     ]
   },
   {
-    "Remarks": "other",
-    "OutboundTag": "proxy",
-    "Port": "0-65535"
+    "remarks": "other",
+    "outboundTag": "proxy",
+    "port": "0-65535"
   }
 ]
 ```
