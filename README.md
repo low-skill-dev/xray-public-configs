@@ -18,6 +18,7 @@ DZ, AR, AF, BH, BA, BW, BR, VE, VN, HK, EG, ZW, IL, IN, ID, JO, IQ, KE, CN, KP, 
 [
   { "remarks": "bittorrent", "outboundTag": "direct", "protocol": [ "bittorrent" ] },
   { "remarks": "dns", "outboundTag": "direct", "ip": [ "77.88.8.8" ] },
+  { "remarks": "dns", "outboundTag": "direct", "domain": [ "common.dot.dns.yandex.net" ] },
   { "remarks": "private", "outboundTag": "direct", "ip": [ "geoip:private" ] },
   { "remarks": "private", "outboundTag": "direct", "domain": [ "geosite:private" ] },
   { "remarks": "doh", "outboundTag": "direct", "domain": [ "doh.opendns.com" ] },
