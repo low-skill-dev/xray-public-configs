@@ -67,13 +67,17 @@ DZ, AR, AF, BH, BA, BW, BR, VE, VN, HK, EG, ZW, IL, IN, ID, JO, IQ, KE, CN, KP, 
 {
   "servers": [
     {
-      "address": "https://common.dot.dns.yandex.net/dns-query",
+      "address": "https://77.88.8.8/dns-query",
       "domains": [ "geosite:VK", "geosite:YANDEX", "geosite:MAILRU", "regexp:.*\\.(ru|рф|by|kz|ir|dz|ar|af|bh|ba|bw|br|ve|vn|hk|eg|zw|il|in|id|jo|iq|ke|cn|kp|cr|kw|lb|ls|mu|mg|my|mv|ma|mz|md|mn|mm|na|om|pk|pe|sa|sc|rs|sy|th|tz|tn|tr|uy|fj|ph|lk|et|za|jm|az|am|kg|tj|tm|uz|bd|qa|cu|ae)$" ]
     },
-    "https://doh.opendns.com/dns-query",
-    "https://dns.google/dns-query",
-    "https://cloudflare-dns.com/dns-query",
-    "https://dns.quad9.net/dns-query",
+    {
+      "address": "77.88.8.8",
+      "domains": [ "geosite:VK", "geosite:YANDEX", "geosite:MAILRU", "regexp:.*\\.(ru|рф|by|kz|ir|dz|ar|af|bh|ba|bw|br|ve|vn|hk|eg|zw|il|in|id|jo|iq|ke|cn|kp|cr|kw|lb|ls|mu|mg|my|mv|ma|mz|md|mn|mm|na|om|pk|pe|sa|sc|rs|sy|th|tz|tn|tr|uy|fj|ph|lk|et|za|jm|az|am|kg|tj|tm|uz|bd|qa|cu|ae)$" ]
+    },
+    "https://208.67.222.222/dns-query",
+    "https://8.8.8.8/dns-query",
+    "https://1.1.1.1/dns-query",
+    "https://9.9.9.9/dns-query",
     "208.67.222.222", "8.8.8.8", "1.1.1.1", "9.9.9.9"
   ],
   "queryStrategy": "UseIP",
