@@ -2,7 +2,7 @@
 android: https://github.com/2dust/v2rayNG<br/>
 windows: https://github.com/2dust/v2rayN<br/>
 linux: https://github.com/v2rayA/v2rayA<br/>
-ios: streisand, foxray
+ios: streisand, foxray, v2box
 
 Однажды хамниг гуэй поспорил что напишет удобный JSON-формат конфигурирования прокси, но потом сделает для него такой GUI, чтобы все обплевались. Он выиграл спор.
 
